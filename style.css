@@ -1,0 +1,31 @@
+
+#game-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color:greenyellow;
+    border: 1px solid #999;
+    margin: 0 auto;
+  }
+
+  .snake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+  }
+
+  .food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+  }
+  body{
+    background-image: url(https://wallpapers.com/images/hd/cartoon-snake-game-8vderv6w3hzdzg8i.jpg);
+    background-repeat: no-repeat;
+  }
+  h1{
+   margin-left: 750px; 
+   color: black;
+  }
